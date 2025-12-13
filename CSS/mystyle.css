@@ -1,0 +1,661 @@
+@charset "utf-8";
+/* CSS Document*/
+
+
+
+body {
+    background-color: #ffff86;
+    background-size: cover;
+    font-family: Impact, Arial, sans-serif;
+    margin: 0;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    margin: 0;
+    font-size: 30px;
+}
+
+h1{
+    
+    font-family: Impact;
+    color: #FF9933; 
+    font-size: 180px;
+    
+}
+
+h2{
+    font-family: Arial;
+    color: white;
+    
+
+    
+  
+}
+
+h3{
+    font-family: Impact;
+    display:block;
+    font-size: 42px;
+    color: #FF9933; 
+   
+    letter-spacing: 3px;
+    
+   
+    
+    
+}
+
+h4{
+    display:block;
+    
+    color: white;
+    font-size: 25px;
+    
+    line-height: 30px;
+    
+    
+    
+    font-family: Arial;
+  
+   
+}
+
+h5{
+    font-family: Arial;
+    color: #FF9933; 
+}
+
+h6{
+    text-align: center;
+    color: #FF9933; 
+    font-size: 70px;
+    letter-spacing: 5px;
+    
+}
+
+
+
+
+
+
+
+                                /* header vvv */
+
+
+.header {
+    display: flex;
+    justify-content: center;
+   background-image: url("../IMAGES/juice-background-optimized.jpg");
+    text-decoration: none;
+    height: 170px;
+}
+
+.logohead{
+    display:block;
+    position: absolute;    
+}
+
+.flexhead{
+    display: flex;
+    position: absolute;
+    height: 90px;
+    margin-top: 40px;
+    right:10%;
+}
+
+.topnav {
+ 
+    display:block;
+    background-color: #0000FF;
+    
+    justify-content: center;
+    
+    width: 100%;    
+}
+
+.topnav li:hover{
+    display: none;
+    position:relative;
+    background-color: #1B1464;
+    width: 250px;
+    height: 38px;
+    
+}
+/*
+.topnav ul li ul{
+    display: none;
+    position: absolute;
+     background-color: #0000FF;
+    padding: 10px;
+}
+
+.topnav ul li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: #1B1464;
+}
+*/
+/* dark blues
+    color: #2E3192;
+*/
+ul#headlist {
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+#home{
+    display:inline-block;
+    width: 250px;
+    font-size: 30px;
+    height: 38px;
+}
+#case{
+    display:inline-block;
+    width: 250px;
+    font-size: 30px;
+    height: 38px;
+}
+#products{
+    display:inline-block;
+    width: 250px;
+    font-size: 30px;
+    height: 38px;
+}
+#ing{
+    display:inline-block;
+    width: 250px;
+    font-size: 30px;
+    height: 38px;
+}
+#contact{
+    display:inline-block;
+    width: 250px;
+    font-size: 30px;
+    height: 38px;
+}
+#active{
+    display:inline-block;
+     font-family: Arial;
+    
+    font-size: 30px;
+    background-color: #1B1464;
+    width: 250px;
+    height: 38px;
+}
+/* ^^^^ clears up my header tag so that it's more applicable. */
+#container {
+    display: block;
+    
+    background-color: #0000FF;
+  
+    
+    text-align: center;
+    
+
+}
+
+                                /* home page vvv */
+.flexcontainer {
+    justify-content: center;
+   margin-top:30px;
+    display:block;
+}
+.picgroup{
+    display: flex;
+    justify-content: center;
+}
+.pic1{
+    
+    background-color: #0000FF;
+    width: 320px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.pic2{
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #0000FF;
+    width: 320px;
+    margin-left: 100px;
+    text-align: center;
+    margin-right: 100px;
+
+}
+.pic3{
+    background-color: #0000FF;
+    width: 320px;
+    height: 390px;
+    text-align: center;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+home text
+#Container-2{
+    display: block;
+    justify-content: center;
+}
+
+.homeimghead{
+    font-family: Impact;
+    display:block;
+    font-size: 42px;
+    color: #FF9933;
+}
+                                /* PRODUCTS CHOICE
+
+.choicetxt{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.casesys{
+    display: flex;
+    background-color: #0000FF;
+    width: 500px;
+    justify-content: center;
+    text-align:center;
+    padding-top: 20px;
+    margin-right: 60px;
+    
+}
+
+.flavchoice{
+    display: flex;
+    background-color: #0000FF;
+    width: 500px;
+    justify-content: center;
+    text-align:center;
+    padding-top: 20px;
+}
+*/
+
+                                /*CART PAGE*/
+
+.cartcase{
+    display: flex;
+    justify-content: center;
+}
+
+.carttxt{
+    display: flex;
+    justify-content: center;
+    margin-top: 172px;
+    padding-top:40px;
+    background-color: #1B1464;
+    outline-style: solid;
+    outline-width: 15px;
+    outline-color: #0000FF;
+    height: 260px;
+    width: 800px;
+    margin-bottom: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
+}
+
+
+
+
+                                /* PRODUCTS PAGE*/
+
+.flavflex{
+    display: flex;
+    background-color: #FFFFBE;
+    justify-content: center;
+    clear:both;
+    width: 100%;
+    height: 368px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.flavflex >div{
+    background-color: #0000FF; 
+    color: white;
+    width: 180px;;
+    margin: 10px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.but1{
+    background-color: #0000FF; 
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.but1:hover{
+    background-color: #1B1464;
+}
+
+.but2{
+    background-color: #0000FF; 
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.but2:hover{
+    background-color: #1B1464;
+}
+
+/* scrapped
+.cranbut1{
+    background-color: #0000FF; 
+    margin-top: 20px;
+}
+*/
+
+
+                                /* contact us vvv */
+
+
+.contact-stuff{
+   display:flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.numbers{
+    background-color: #0000FF;
+    width:500px;
+    margin-right: 100px;
+    height: 280px;
+    border-radius: 25px;
+}
+
+.numbhead{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    background-color: #1B1464;
+}
+
+.contnumb{
+    line-height: 55px;
+    margin-left: 15px;
+}
+
+.conaddon{
+    width: 1100px;
+    
+    margin-top: 40px;
+    
+    
+   
+}
+
+.conaddon1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    background-color: #1B1464;
+    text-align: center;
+}
+
+.conform{
+    background-color: #0000FF;
+    color: white;
+    height: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    
+}
+.addresses{
+    background-color: #0000FF;
+    width:500px;
+    height: 280px;
+    border-radius: 25px;
+}
+
+.addhead{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    background-color: #1B1464;
+}
+
+.contadd1{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.contadd2{
+    margin-top: 20px;
+}
+
+
+
+.flexcontact{
+    display:flex;
+    
+}
+
+
+
+                                /*ingredients*/
+
+
+.ingheader{
+    display: flex;
+    font-size: 70px;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+.slider_image{
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #0000FF;
+    padding: 20px;
+}
+
+.flexcase{
+    display: flex;
+    background-color: #D9E021;
+    justify-content: center;
+    clear:both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.flex{
+    display: flex;
+    background-color: #FFFFBE;
+    justify-content: center;
+    clear:both;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.flex >div{
+    background-color: #0000FF;
+    color: white;
+    width: 180px;;
+    margin: 10px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    height: 310px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} /*SAME THING AS PRODUCTS*/
+
+.flex>div:hover{
+    background-color: #1B1464;
+}
+
+.ingtext{
+    margin-top: 10px;
+    }
+
+/*
+ * .crantext{
+    margin-top: 10px;
+}
+*/
+
+                                /*individual ingredients*/
+.juicestuff{
+    display:flex;
+    justify-content: center;
+}
+.juicebox{
+    display: flex;
+    margin-top: 60px;
+}
+.juiceborder{
+    background-color: #1B1464;
+    width: 420px;
+    height: 480px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    outline-style:solid;
+    outline-width: 10px;
+    outline-color: #0000FF;
+}
+.juiceimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.juicytext{
+    display: flex;
+    margin-top:60px;
+    margin-left: 89px;
+    background-color: #1B1464;
+    height: 480px;
+    width: 820px;
+    outline-style:solid;
+    outline-width: 10px;
+    outline-color: #0000FF;
+    justify-content: center;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.juicyhead{
+    display: block;
+    margin-top: 5px;
+}
+.juicybody{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 15px;
+    text-indent: 20px;
+}
+
+                                /* CASE SYSTEM */
+
+.casestuff{
+    display:flex;
+    justify-content: center;
+}
+.casebox{
+    display: flex;
+    margin-top: 100px;
+}
+.caseborder{
+    background-color: #0000FF;
+    width: 1200px;
+    height: 450px;
+    border-radius: 60px;
+    outline-style:solid;
+    outline-width: 10px;
+    outline-color: #1B1464;
+}
+
+.casehead{
+    width:1200px;
+    background-color: #1B1464;
+    outline-style:solid;
+    outline-width: 10px;
+    outline-color: #1B1464;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.caseimg{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 40px;
+    
+}
+
+.casetxt{
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+                                /* footer VVV */
+
+.footer{
+     width:100%;
+
+     position:fixed;
+
+     bottom:0;
+
+     text-align:center;
+    
+    
+    background-color: #0000FF;
+    color: white;
+    
+}
+
+
+
+
+
+
+
